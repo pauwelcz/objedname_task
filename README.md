@@ -1,73 +1,73 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
-</p>
+# Email Sender
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#init-database">Init database</a></li>
+        <li><a href="#project-start">Project start</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#suggestions-and-features">Suggestions and features</a>
+    </li>
+    <li><a href="#author">Author</a></li>
+  </ol>
+</details>
 
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+## About The Project
 
-## Description
+This project is part of a technical round. Project demonstrates:
+- CRUD operations on table **orders** in _api_ branch 
+- simple **JWT authentization** in _jwt_
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+### Built with
 
-## Installation
+- Visual Studio Code
+- NodeJS v18.16.0
+- NestJS 10.2.0
+- Docker 25.0.3
+- Postman (TBA in _api_ branch)
 
-```bash
-$ npm install
-```
+### Getting started
 
-## Running the app
+#### Prerequisities
 
-```bash
-# development
-$ npm run start
+- NodeJS v18.16.0
+- NestJS 10.2.0
+- Docker 25.0.3
 
-# watch mode
-$ npm run start:dev
+#### Init database
 
-# production mode
-$ npm run start:prod
-```
+1. Create `.env` file and fill it with variables (variable names are included in `.env.example` file ). 
+2. Start Docker, if you do not have it started
+3. Open terminal
+4. Run command `docker compose up --build`
 
-## Test
+After these steps you should be able to connect to database with created empty table `orders` in Docker container.
 
-```bash
-# unit tests
-$ npm run test
+For stopping project simply press `ctrl + c` in terminal.
 
-# e2e tests
-$ npm run test:e2e
+#### Project start
 
-# test coverage
-$ npm run test:cov
-```
+1. Create `.env` file and copy variable values from `.env.example`, you can add you own variable values here
+2. Install packages with `npm i` in command line
+3. If you do not have started docker (section Init database), start it (you do not need then configure database)
+4. Run project with `npm run start` in command line.
 
-## Support
+### Suggestions and features
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+### Author
 
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
+- Name: **Pavel Sedlář**
+- <a href="https://www.linkedin.com/in/pavel-sedl%C3%A1%C5%99-574039117/">LinkedIn Profile</a>
+- <a href="https://github.com/pauwelcz/objedname_task">Github repository</a>
