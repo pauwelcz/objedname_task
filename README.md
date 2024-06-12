@@ -1,38 +1,19 @@
 # Email Sender
 
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#init-database">Init database</a></li>
-        <li><a href="#project-start">Project start</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#project-routes">Project routes</a>
-      <ul>
-        <li><a href="#get-orders">GET order</a></li>
-        <li><a href="#get-orders-id">GET orders/:id</a></li>
-        <li><a href="#post-orders">POST orders</a></li>
-        <li><a href="#patch-orders-id">PATCH orders/:id</a></li>
-        <li><a href="#delete-orders-id">DELETE orders/:id</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#suggestions-and-features">Suggestions and features</a>
-    </li>
-    <li><a href="#author">Author</a></li>
-  </ol>
-</details>
+- [About The Project](#about-the-project)
+   * [Built with](#built-with)
+   * [Getting started](#getting-started)
+      + [Prerequisities](#prerequisities)
+      + [Init database](#init-database)
+      + [Project start](#project-start)
+   * [Project routes](#project-routes)
+      + [GET orders](#get-orders)
+      + [GET orders/:id](#get-ordersid)
+      + [POST orders](#post-orders)
+      + [PATCH orders/:id](#patch-ordersid)
+      + [DELETE orders/:id](#delete-ordersid)
+   * [Suggestions and features](#suggestions-and-features)
+   * [Author](#author)
 
 ## About The Project
 
