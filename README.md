@@ -18,6 +18,16 @@
       </ul>
     </li>
     <li>
+      <a href="#project-routes">Project routes</a>
+      <ul>
+        <li><a href="#get-orders">GET order</a></li>
+        <li><a href="#get-orders-id">GET orders/:id</a></li>
+        <li><a href="#post-orders">POST orders</a></li>
+        <li><a href="#patch-orders-id">PATCH orders/:id</a></li>
+        <li><a href="#delete-orders-id">DELETE orders/:id</a></li>
+      </ul>
+    </li>
+    <li>
       <a href="#suggestions-and-features">Suggestions and features</a>
     </li>
     <li><a href="#author">Author</a></li>
@@ -63,6 +73,28 @@ For stopping project simply press `ctrl + c` in terminal.
 2. Install packages with `npm i` in command line
 3. If you do not have started docker (section Init database), start it (you do not need then configure database)
 4. Run project with `npm run start` in command line.
+
+### Project routes
+
+#### GET orders
+
+This route will get all orders.
+
+#### GET orders/:id
+
+This route will get order by its id.
+
+#### POST orders
+
+This route will create order.
+
+#### PATCH orders/:id
+
+This route will update existing order.
+
+#### DELETE orders/:id
+
+This route will delete existing order (soft delete).
 
 ### Suggestions and features
 
