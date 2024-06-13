@@ -70,11 +70,19 @@ This route will get order by its id.
 
 #### POST orders
 
-This route will create order.
+This route will create order with default status "Ordered".
 
 #### PATCH orders/:id
 
 This route will update existing order.
+
+Request json body:
+
+``` json
+{
+    "status": ["Aborted"|"Completed"|"Delivering"|"Ordered"|"Preparing"]
+}
+```
 
 #### DELETE orders/:id
 
