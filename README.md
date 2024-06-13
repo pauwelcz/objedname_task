@@ -13,6 +13,9 @@
       + [PATCH orders/:id](#patch-ordersid)
       + [DELETE orders/:id](#delete-ordersid)
    * [Suggestions and features](#suggestions-and-features)
+      + [Pagination and limit](#pagination-and-limit)
+      + [Sorting](#sorting)
+      + [Filtering](#filtering)
    * [Author](#author)
 
 ## About The Project
@@ -78,6 +81,18 @@ This route will update existing order.
 This route will delete existing order (soft delete).
 
 ### Suggestions and features
+
+#### Pagination and limit
+
+In case of multiple orders, I would suggest adding limit and offset. Limiting should also pretend database overload when we have for example orders in the order of millions.
+
+#### Sorting
+
+For a clearer display of orders, I would add sorting (in this case by id, order status, or creation date).
+
+#### Filtering
+
+Also for a clearer display of orders, I would filtering (by its status, potentially user can check multiple boxes).
 
 ### Author
 
