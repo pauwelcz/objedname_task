@@ -7,6 +7,7 @@
       + [Init database](#init-database)
       + [Project start](#project-start)
    * [Project routes](#project-routes)
+      + [GET auth/token](#get-authtoken)
       + [GET orders](#get-orders)
       + [GET orders/:id](#get-ordersid)
       + [POST orders](#post-orders)
@@ -59,6 +60,18 @@ For stopping project simply press `ctrl + c` in terminal.
 4. Run project with `npm run start` in command line.
 
 ### Project routes
+
+#### GET auth/token
+
+This route will get token for customer with valid email adress. 
+
+Correct request body example:
+
+```json
+{
+   "email": "johndoe@email.com"
+}
+```
 
 #### GET orders
 
