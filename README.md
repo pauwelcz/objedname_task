@@ -101,7 +101,7 @@ For a clearer display of orders, I would add sorting (in this case by id, order 
 
 #### Filtering
 
-Also for a clearer display of orders, I would filtering (by its status, potentially user can check multiple boxes).
+Also for a clearer display of orders, I would filter result(s) (by its status, potentially user can check multiple boxes).
 
 #### Swagger
 
