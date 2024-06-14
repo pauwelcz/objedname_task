@@ -11,7 +11,7 @@ import { AuthService } from './auth.service';
       global: true,
       secret: process.env.JWT_SECRET || 'secret',
       signOptions: {
-        expiresIn: `${process.env.JWT_TOKEN_EXPIRATION_TIME || 10}s`,
+        expiresIn: `${process.env.JWT_TOKEN_EXPIRATION_TIME || 3600}s`,
       },
     }),
   ],
