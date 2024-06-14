@@ -6,14 +6,8 @@ import {
   PrimaryGeneratedColumn,
   UpdateDateColumn,
 } from 'typeorm';
+import { Status } from '../../types/status';
 
-export enum Status {
-  ABORTED = 'Aborted',
-  COMPLETED = 'Completed',
-  DELIVERING = 'Delivering',
-  ORDERED = 'Ordered',
-  PREPARING = 'Preparing',
-}
 @Entity('orders')
 export class Order {
   @PrimaryGeneratedColumn()
