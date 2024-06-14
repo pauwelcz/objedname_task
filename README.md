@@ -16,6 +16,7 @@
       + [Pagination and limit](#pagination-and-limit)
       + [Sorting](#sorting)
       + [Filtering](#filtering)
+      + [Swagger](#swagger)
    * [Author](#author)
 
 ## About The Project
@@ -101,6 +102,10 @@ For a clearer display of orders, I would add sorting (in this case by id, order 
 #### Filtering
 
 Also for a clearer display of orders, I would filtering (by its status, potentially user can check multiple boxes).
+
+#### Swagger
+
+Although there is a postman collection, it wouldn't hurt to add swagger for better overview, how application works.
 
 ### Author
 
